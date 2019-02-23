@@ -1,0 +1,28 @@
+2019-02-23 07:04:50,737 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2019-02-23 07:04:50,972 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2019-02-23 07:04:50,972 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2019-02-23 07:04:51,003 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2019-02-23 07:04:51,003 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1550782269746_0003, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@409bf450)
+2019-02-23 07:04:51,475 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2019-02-23 07:04:52,632 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-purnak/nm-local-dir/usercache/purnak/appcache/application_1550782269746_0003
+2019-02-23 07:04:53,724 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-02-23 07:04:54,877 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-02-23 07:04:54,908 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2019-02-23 07:04:54,971 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4f1bfe23
+2019-02-23 07:04:55,390 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://localhost:9000/input/g.txt:0+33
+2019-02-23 07:04:55,577 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2019-02-23 07:04:55,577 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2019-02-23 07:04:55,577 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2019-02-23 07:04:55,577 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2019-02-23 07:04:55,577 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2019-02-23 07:04:55,608 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2019-02-23 07:04:55,785 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2019-02-23 07:04:55,785 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2019-02-23 07:04:55,785 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 57; bufvoid = 104857600
+2019-02-23 07:04:55,785 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214376(104857504); length = 21/6553600
+2019-02-23 07:04:55,847 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2019-02-23 07:04:55,925 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1550782269746_0003_m_000000_0 is done. And is in the process of committing
+2019-02-23 07:04:56,128 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1550782269746_0003_m_000000_0' done.
+2019-02-23 07:04:56,238 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2019-02-23 07:04:56,238 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2019-02-23 07:04:56,238 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.

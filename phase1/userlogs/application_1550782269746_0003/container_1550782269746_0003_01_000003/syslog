@@ -1,0 +1,20 @@
+2019-02-23 07:05:02,380 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2019-02-23 07:05:02,593 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2019-02-23 07:05:02,593 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2019-02-23 07:05:02,609 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2019-02-23 07:05:02,609 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1550782269746_0003, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@409bf450)
+2019-02-23 07:05:03,032 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2019-02-23 07:05:03,894 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-purnak/nm-local-dir/usercache/purnak/appcache/application_1550782269746_0003
+2019-02-23 07:05:04,577 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2019-02-23 07:05:05,592 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2019-02-23 07:05:05,608 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2019-02-23 07:05:05,655 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4f1bfe23
+2019-02-23 07:05:05,730 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@f316aeb
+2019-02-23 07:05:07,138 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2019-02-23 07:05:08,109 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1550782269746_0003_r_000000_0 is done. And is in the process of committing
+2019-02-23 07:05:08,187 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1550782269746_0003_r_000000_0 is allowed to commit now
+2019-02-23 07:05:08,296 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1550782269746_0003_r_000000_0' to hdfs://localhost:9000/abc/_temporary/1/task_1550782269746_0003_r_000000
+2019-02-23 07:05:08,343 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1550782269746_0003_r_000000_0' done.
+2019-02-23 07:05:08,461 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2019-02-23 07:05:08,461 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2019-02-23 07:05:08,461 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.
